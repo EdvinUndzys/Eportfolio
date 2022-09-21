@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Edvin Undzys</title>
+	<link rel="stylesheet" href="StyleSheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<script src="encom-globe.min.js"></script>
+	<script src="grid.js"></script>
+	<script src="trianglify.min.js"></script>
+	<script src="main.js"></script>
+</head>
+
+<body>
+	
+	<h1 id="intro">{ }</h1>
+	
+    <div id="main">
+		<h2>Information Technologist</h2>
+		<br/>
+        <h2>
+			<span  class="lang-button" style="color:#90c53f;"data-panel="about" >About<span   class="underline"
+					style="background-color:#90c53f;"></span></span>
+			<span class="lang-button" style="color: #5ec9f8;" data-panel="skills">My Skills<span class="underline"
+					style="background-color:#5ec9f8;"></span></span>
+			<span class="lang-button" style="color: #f16529;" data-panel="htmlcss">Experience<span class="underline"
+					style="background-color:#f16529;"></span></span>
+			<span class="lang-button" style="color: #ffdd48;" data-panel="others">Other<span class="underline"
+					style="background-color:#ffdd48;"></span></span>
+		</h2>
+		<svg id="linedown">
+			<line x1=0 y1=0 x2=0 y2=100>
+		</svg>
+		<span id="langhint">(click to view details)</span>
+		<svg id="rect">
+			<path id="rectleft" />
+			<path id="rectright" />
+		</svg>
+		<div id="about" class="lang-panel">
+			<h2>About Me</h2>
+			<h3 class="lang-desc">Born in Lithuania in 2000. I graduated from <span>York University</span> in 2022 with a  
+				bachelors degree in <span>Information Technology</span>. Right after University, I got a contract job working 
+				for <span>Elections Ontario</span> as a <span>Technical Support Officer</span>. Working there I got real world
+			experience and strengthened my knowledge with technology. I am continuing to expand my knowledge and am always looking for new
+		and exciting work.</h3>
+		<div class="projects about" data-cat="about">
+			
+			<div class="proj" style="background-image: url(images/LTCAD.png)" >
+				<h3>Lithuanian/Canadian</a></h3>
+			</div>
+			<div class="proj" style="background-image: url(images/IT.jpg)">
+				<h3>Information Technologist</h3>
+			</div>
+			<div class="proj" style="background-image: url(images/york.png)">
+				<h3>York University</h3>
+			</div>
+		</div>
+		</div>
+		<div id="skills" class="lang-panel">
+			<h2>Skills</h2>
+			<h3 class="lang-desc">In school, I mainly learned <span>Python</span> and
+				<span>Java</span> at an intermediate level. I also have experience wth <span>HTML/CSS/Javascript</span> as you 
+				can see with this portfolio that I am proud of. I would also say im at
+				a professional level in terms of <span>computer hardware</span>, it is something I worked with
+				since I was little and even have work experience. I am also proficient in <span>Office365, Hyper-V, Windows 10/11, 
+					Mac OS, IOS, and Android</span>.
+			</h3>
+			<div class="projects skills" data-cat="skills">
+				<div class="proj" style="background-image: url(images/python.png)">
+					<h3>Python</h3>
+				</div>
+				<div class="proj" style="background-image: url(images/java.png)">
+					<h3>Java</h3>
+				</div>
+				<div class="proj" style="background-image: url(images/html.png)">
+					<h3>HTML/CSS/Javascript</h3>
+				</div>
+			</div>
+		</div>
+		<div id="htmlcss" class="lang-panel">
+			<h2>Experience</h2>
+			<h3 class="lang-desc">I graduated from York University with a bachelors degree in <span>Information Technology</span>.
+				My first job was working at Elections Ontario as a <span>Technical Support Officer</span>, 
+				I was in charge of doing anything technical related from setting up workstations to supervising a call centre.
+				I am also working towards Comptia certifications, first one being <span>network+</span> and then eventually <span>sec+</span>.
+				In terms of projects, you can check out my <span><a href="https://github.com/EdvinUndzys">github</a></span>. 
+				
+			</h3>
+			<div class="projects htmlcss" data-cat="htmlcss">
+				<div class="proj" style="background-image: url(images/york.png)">
+					<h3>York University</h3>
+				</div>
+				<div class="proj" style="background-image: url(images/TechSupport.png)">
+					<h3>Technical Support</h3>
+				</div>
+				<div class="proj" style="background-image: url(images/network.png)">
+					<h3>Network+</h3>
+				</div>
+			</div>
+		</div>
+		<div id="others" class="lang-panel">
+			<h2>Hobbies</h2>
+			<h3 class="lang-desc">Some of my hobbies include <span>Cooking</span>, <span>Powerlifting</span>, and <span>Hiking</span>.</h3>
+			<div class="projects others" data-cat="others">
+				<div class="proj" style="background-image: url(images/cooking1.png)">
+					<h3>Cooking</h3>
+				</div>
+				<div class="proj" style="background-image: url(images/powerlifting1.png)">
+					<h3>Powerlifting</h3>
+				</div>
+				<div class="proj" style="background-image: url(images/hiking.png)">
+					<h3>Hiking</h3>
+				</div>
+			</div>
+		</div>
+		<div id="details">
+			<h2>Check out my <a href="https://github.com/EdvinUndzys" class="d" target="_blank"
+					style="color:#949494;">GitHub<span class="underline" style="background-color:#949494;"></span></a>
+				or <a href="https://www.linkedin.com/in/edvinundzys/" class="d" target="_blank" style="color:#949494;">Linkedin<span class="underline"
+						style="background-color:#949494;"></span></a>.</h2>
+			<br>
+			<h2 id="lastseen"></h2>
+			<h2>Want to ask me something? <a href="mailto:edvin.undzys@gmail.com" class="d" target="_blank"
+					style="color:#949494;">Email me!<span class="underline"
+						style="background-color:#949494;"></span></a></h2>
+		</div>
+		
+		
+	</div>
+	<script type="text/javascript" src="intro.js"></script>
+	<script type="text/javascript" src="langs.js"></script>
+	<script type="text/javascript" src="globe.js"></script>
+	
+	
+</body>
+
+</html>
+
